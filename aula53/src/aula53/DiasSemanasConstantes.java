@@ -9,6 +9,9 @@ public class DiasSemanasConstantes {
     public static final int DOMINGO = 7;
 
 
+    public DiasSemanasConstantes() {
+    }
+
     public static int getSEGUNDA() {
         return SEGUNDA;
     }
