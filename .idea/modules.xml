@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaIntermediario.git.iml" filepath="$PROJECT_DIR$/.idea/JavaIntermediario.git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teste2/Teste2.iml" filepath="$PROJECT_DIR$/Teste2/Teste2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula53/aula53.iml" filepath="$PROJECT_DIR$/aula53/aula53.iml" />
+    </modules>
+  </component>
+</project>
