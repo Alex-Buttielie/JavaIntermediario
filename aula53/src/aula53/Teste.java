@@ -1,3 +1,8 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
 package aula53;
 
 public class Teste {
@@ -6,6 +11,8 @@ public class Teste {
 
     public static void main(String[] args) {
         usandoConstantes();
+        System.out.println();
+        usandoEnum();
     }
 
     private static void usandoConstantes() {
@@ -17,6 +24,7 @@ public class Teste {
         int sabado = 6;
         int domingo = 7;
         System.out.println("Teste usando constantes no Java:");
+
         imprimeDiaSemana(segunda);
         imprimeDiaSemana(terca);
         imprimeDiaSemana(quarta);
@@ -25,7 +33,27 @@ public class Teste {
         imprimeDiaSemana(sabado);
         imprimeDiaSemana(domingo);
     }
+    private static void usandoEnum(){
 
+        DiaSemana segunda = DiaSemana.SEGUNDA;
+        DiaSemana terca = DiaSemana.TERCA;
+        DiaSemana quarta = DiaSemana.QUARTA;
+        DiaSemana quinta = DiaSemana.QUINTA;
+        DiaSemana sexta = DiaSemana.SEXTA;
+        DiaSemana sabado = DiaSemana.SABADO;
+        DiaSemana domingo = DiaSemana.DOMINGO;
+
+        System.out.println("Testes utilizando Enum no java: ");
+        imprimeDiasSemana(segunda);
+        imprimeDiasSemana(terca);
+        imprimeDiasSemana(quarta);
+        imprimeDiasSemana(quinta);
+        imprimeDiasSemana(sexta);
+        imprimeDiasSemana(sabado);
+        imprimeDiasSemana(domingo);
+
+
+    }
     private static void imprimeDiaSemana(int dia) {
         switch(dia) {
             case 1:
@@ -49,6 +77,30 @@ public class Teste {
             case 7:
                 System.out.println("Domingo");
         }
-
     }
+    private static void imprimeDiasSemana(DiaSemana dia) {
+        switch(dia) {
+            case SEGUNDA:
+                System.out.println("Segunda-Feira");
+                break;
+            case TERCA:
+                System.out.println("Terça-Feira");
+                break;
+            case QUARTA:
+                System.out.println("Quarta-Feira");
+                break;
+            case QUINTA:
+                System.out.println("Quinta-Feira");
+                break;
+            case SEXTA:
+                System.out.println("Sexta-Feira");
+                break;
+            case SABADO:
+                System.out.println("Sábado");
+                break;
+            case DOMINGO:
+                System.out.println("Domingo");
+        }
+    }
+
 }

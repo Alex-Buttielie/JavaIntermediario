@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaIntermediario.git.iml" filepath="$PROJECT_DIR$/.idea/JavaIntermediario.git.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Teste2/Teste2.iml" filepath="$PROJECT_DIR$/Teste2/Teste2.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula53/aula53.iml" filepath="$PROJECT_DIR$/aula53/aula53.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula54/aula54.iml" filepath="$PROJECT_DIR$/aula54/aula54.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula55/aula55.iml" filepath="$PROJECT_DIR$/aula55/aula55.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula56/aula56.iml" filepath="$PROJECT_DIR$/aula56/aula56.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicioEnum/exercicioEnum.iml" filepath="$PROJECT_DIR$/exercicioEnum/exercicioEnum.iml" />
     </modules>
   </component>
 </project>
