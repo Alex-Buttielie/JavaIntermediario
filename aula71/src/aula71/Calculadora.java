@@ -11,7 +11,7 @@ public class Calculadora {
 
             soma += array[i];
 
-            System.out.println("Executando a soma " + Thread.currentThread().getName() +
+            System.out.println ("escutando a soma " + Thread.currentThread().getName() +
                     " somando o valor " + array[i] + " com total de " + soma);
 
             try {
